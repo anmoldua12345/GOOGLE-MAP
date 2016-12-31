@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="100"
+        android:title="satellite"
+        app:showAsAction="always"
+        android:icon="@drawable/satellite"
+        ></item>
+
+    <item
+        android:id="@+id/terrain"
+        android:orderInCategory="100"
+        android:title="terrain"
+        app:showAsAction="always"
+        android:icon="@drawable/terrain"
+        ></item>
+
+    <item
+        android:id="@+id/none"
+        android:orderInCategory="100"
+        android:title="none"
+        app:showAsAction="always"
+        android:icon="@drawable/plus"
+        ></item>
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="none"
+        app:showAsAction="always"
+        android:icon="@drawable/plus"
+        ></item>
+
+</menu>
